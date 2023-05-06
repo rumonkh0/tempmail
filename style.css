@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+    background-color: red;
+} */
+.container {
+  max-width: 1140px !important;
+  width: 100%;
+}
+.header {
+  background: #21232a;
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.contents > div {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+/* .left {
+  background-color: red;
+} */
+
+.store-button {
+  font-family: Roboto, sans-serif !important;
+  font-size: 12px !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+  border: 1px solid #393c45;
+  border-radius: 12px !important;
+  line-height: 20px !important;
+  text-decoration: none !important;
+  padding: 0.45rem 14px 0.45rem 10px !important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  cursor: pointer;
+}
+.logo {
+  justify-content: center;
+}
+.right {
+  justify-content: flex-end;
+}
+
+.temp-number {
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  padding: 8px 15px !important;
+  background: #2e3038 !important;
+  border-radius: 25px !important;
+  margin-right: 10px !important;
+  cursor: pointer;
+}
+
+.premium {
+  font-size: 14px;
+  padding: 8px 15px;
+  color: #000;
+  background: #ff0;
+  cursor: pointer;
+  border: 1px solid #393c45;
+  border-radius: 25px;
+  text-decoration: none !important;
+}
+
+.mail-address-main {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.address-middle{
+    width: 50%;
+}
+.temp-address-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  border: 2px dashed #383b44;
+}
+
+.about-text{
+    /* width: 50%; */
+}
